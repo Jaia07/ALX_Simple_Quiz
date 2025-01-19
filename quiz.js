@@ -8,9 +8,9 @@ function checkAnswer() {
   
     // Compare the User's Answer with the Correct Answer
     const feedbackElement = document.getElementById("feedback"); 
-    if(userAnswer === correctAnswer) {
+    if (userAnswer === correctAnswer) {
       feedbackElement.textContent = "Correct! Well done.";
-    }else {
+    } else {
       feedbackElement.textContent = "That's incorrect. Try again!";
     }
   }
